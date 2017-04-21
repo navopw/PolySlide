@@ -6,7 +6,7 @@ npm install http-server -g
 http-server PolySlide/
 ```
 
-Now visit http://localhost:8080
+Now visit http://localhost:8080 and use the chrome dev tools to get the smartphone preview
 
 ### License (MIT)
 
