@@ -8,6 +8,10 @@ http-server PolySlide/
 
 Now visit http://localhost:8080 and use the chrome dev tools to get the smartphone preview
 
+### Acknowledgments
+
+- Thanks [@Masy](http://twitter.com/AntherusMasy) for the textures & game concept
+
 ### License (MIT)
 
 Copyright © 2017 navo.pw & masy.pw
