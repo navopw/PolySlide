@@ -1,4 +1,4 @@
-PolySwipe.States.Preloader = ds.class({
+PolySlide.States.Preloader = ds.class({
 
 	constructor: function(game) {
 		this.kncw_logo = null;
