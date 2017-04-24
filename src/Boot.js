@@ -1,4 +1,4 @@
-PolySwipe.States.Boot = ds.class({
+PolySlide.States.Boot = ds.class({
 
     init: function () {
         this.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
