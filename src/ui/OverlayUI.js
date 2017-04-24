@@ -1,4 +1,4 @@
-PolySwipe.OverlayUI = ds.class({
+PolySlide.OverlayUI = ds.class({
 
 	constructor: function() {
 		this.score_text = null;
@@ -25,7 +25,7 @@ PolySwipe.OverlayUI = ds.class({
 	},
 
 	setScoreText: function(score) {
-		this.score_text.text = PolySwipeUtil.pad(score, 5);
+		this.score_text.text = PolySlideUtil.pad(score, 5);
 	},
 
 	destroy: function() {
