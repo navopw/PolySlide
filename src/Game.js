@@ -16,15 +16,15 @@ PolySlide.States.Game = ds.class({
 		this.score = 0;
 
 		//Overlay UI
-		this.overlayUI = new PolySwipe.OverlayUI();
+		this.overlayUI = new PolySlide.OverlayUI();
 
 		//Pause menu
 		this.paused_state = false;
-		this.pauseUI = new PolySwipe.PauseUI();
+		this.pauseUI = new PolySlide.PauseUI();
 
 		//Gameover menu
 		this.gameover_state = false;
-		this.gameoverUI = new PolySwipe.GameoverUI();
+		this.gameoverUI = new PolySlide.GameoverUI();
 
 		//Timer
 		this.game_timer = null;
@@ -76,7 +76,7 @@ PolySlide.States.Game = ds.class({
 		this.game.physics.startSystem(Phaser.Physics.ARCADE);
 
 		//Entities
-		this.player = new PolySwipe.Entities.Player(this.game, this.game.world.centerX, this.game.world.height / 16 * 15);
+		this.player = new PolySlide.Entities.Player(this.game, this.game.world.centerX, this.game.world.height / 16 * 15);
 		this.player.fadeIn(350);
 		this.player.initializePhysics();
 
@@ -113,7 +113,7 @@ PolySlide.States.Game = ds.class({
 
 		//enemy_group
 		this.enemy_group.forEach((function (enemy) {
-			if (PolySwipe.Items.Watch.enabled) {
+			if (PolySlide.Items.Watch.enabled) {
 				enemy.y += this.entity_speed / 2;
 				enemy.angle += enemy.rotation_speed / 2;
 			} else {
@@ -131,7 +131,7 @@ PolySlide.States.Game = ds.class({
 
 		//item_group
 		this.item_group.forEach((function (item) {
-			if (PolySwipe.Items.Watch.enabled) {
+			if (PolySlide.Items.Watch.enabled) {
 				item.y += this.entity_speed / 2;
 			} else {
 				item.y += this.entity_speed;
@@ -244,8 +244,8 @@ PolySlide.States.Game = ds.class({
 
 	spawn_item: function() {
 		var randomInt = this.game.rnd.integerInRange(1, 100)
-		for (var item_name in PolySwipe.Items) {
-			var item = PolySwipe.Items[item_name];
+		for (var item_name in PolySlide.Items) {
+			var item = PolySlide.Items[item_name];
 
 			if (randomInt >= item.min_rnd && randomInt <= item.max_rnd) {
 				var item_sprite = item.spawn(this.game, this.game.rnd.frac() * this.world.width, 0);
@@ -259,7 +259,7 @@ PolySlide.States.Game = ds.class({
 	player_collision_handler: function(player_sprite, enemy_sprite) {
 		if (this.player.hasShield()) {
 			enemy_sprite.destroy();
-			PolySwipe.Items.Shield.stop(this);
+			PolySlide.Items.Shield.stop(this);
 		} else {
 			this.gameover();
 		}
@@ -267,7 +267,7 @@ PolySlide.States.Game = ds.class({
 
 	//Item collect
 	item_collision_handler: function(player_sprite, item_sprite) {
-		var item = PolySwipe.Items[item_sprite.name];
+		var item = PolySlide.Items[item_sprite.name];
 		item.start(this);
 		item_sprite.destroy();
 	},
@@ -305,8 +305,8 @@ PolySlide.States.Game = ds.class({
 		this.game_timer.stop();
 
 		//Items
-		for (item_name in PolySwipe.Items) {
-			var item = PolySwipe.Items[item_name];
+		for (item_name in PolySlide.Items) {
+			var item = PolySlide.Items[item_name];
 			if (item.enabled) {
 				item.stop(this);
 			}
