@@ -1,4 +1,4 @@
-PolySwipe.Items.Watch = ds.static.class({
+PolySlide.Items.Watch = ds.static.class({
 	
 	enabled: false,
 	time: 10000,
