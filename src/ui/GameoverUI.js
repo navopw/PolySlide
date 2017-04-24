@@ -1,4 +1,4 @@
-PolySwipe.GameoverUI = ds.class({
+PolySlide.GameoverUI = ds.class({
 
 	constructor: function() {
 		this.gameover_text = null;
