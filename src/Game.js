@@ -1,4 +1,4 @@
-PolySwipe.States.Game = ds.class({
+PolySlide.States.Game = ds.class({
 
 	constructor: function(game) {
 		//Background
