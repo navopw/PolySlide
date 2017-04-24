@@ -1,4 +1,4 @@
-PolySwipe.Entities.Player = ds.class({
+PolySlide.Entities.Player = ds.class({
 
 	constructor: function(game, x, y) {
 		this.speed = 15;
