@@ -1,4 +1,4 @@
-PolySwipe.PauseUI = ds.class({
+PolySlide.PauseUI = ds.class({
 
 	constructor: function() {
 		this.pause_text = null;
