@@ -1,4 +1,4 @@
-PolySwipe.Items.Shield = ds.static.class({
+PolySlide.Items.Shield = ds.static.class({
 	
 	enabled: false,
 	name: "Shield",
