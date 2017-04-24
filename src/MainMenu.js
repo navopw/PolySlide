@@ -1,4 +1,4 @@
-PolySwipe.States.MainMenu = ds.class({
+PolySlide.States.MainMenu = ds.class({
 	
 	constructor: function (game) {
 		//Background
