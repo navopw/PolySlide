@@ -38,7 +38,7 @@
 
         <!-- PolySwipe Object -->
         <script type="text/javascript">
-            var PolySwipe = ds.static.class({
+            var PolySlide = ds.static.class({
                 States: {},
                 Entities: {},
                 
@@ -73,10 +73,10 @@
 				"game"
 			);
 
-			game.state.add("Boot", PolySwipe.States.Boot);
-			game.state.add("Preloader", PolySwipe.States.Preloader);
-			game.state.add("MainMenu", PolySwipe.States.MainMenu);
-			game.state.add("Game", PolySwipe.States.Game);
+			game.state.add("Boot", PolySlide.States.Boot);
+			game.state.add("Preloader", PolySlide.States.Preloader);
+			game.state.add("MainMenu", PolySlide.States.MainMenu);
+			game.state.add("Game", PolySlide.States.Game);
 			
 			game.state.start("Boot");
         </script>
