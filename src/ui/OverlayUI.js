@@ -25,7 +25,7 @@ PolySlide.OverlayUI = ds.class({
 	},
 
 	setScoreText: function(score) {
-		this.score_text.text = PolySwipeUtil.pad(score, 5);
+		this.score_text.text = PolySlideUtil.pad(score, 5);
 	},
 
 	destroy: function() {

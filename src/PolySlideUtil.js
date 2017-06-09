@@ -1,4 +1,4 @@
-var PolySwipeUtil = ds.static.class({
+var PolySlideUtil = ds.static.class({
 
 	pad: function(num, size) { 
 		return ("000000000" + num).substr(-size); 
