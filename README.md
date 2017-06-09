@@ -8,6 +8,20 @@ http-server PolySlide/
 
 Now visit http://localhost:8080 and use the chrome dev tools to get the smartphone preview
 
+### Screenshots
+
+#### Menu
+![Menu](http://i.imgur.com/lMwF9wK.png)
+
+#### Gameplay
+![Gameplay](http://i.imgur.com/Z85BU0v.png)
+
+#### Slowmotion Item
+![WatchItem](http://i.imgur.com/6JWNwyX.png)
+
+#### Shield Item
+![ShieldItem](http://i.imgur.com/DJ4kaoD.png)
+
 ### Acknowledgments
 
 - Thanks [@Masy](http://twitter.com/AntherusMasy) for the textures & game concept
