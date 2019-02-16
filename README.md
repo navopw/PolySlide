@@ -20,7 +20,7 @@ Now visit http://localhost:8080 and use the chrome dev tools to get the smartpho
 
 ### Acknowledgments
 
-- Thanks [@Masy](http://twitter.com/AntherusMasy) for the textures & game concept
+- Thanks [masy](https://github.com/masy) for the textures & game concept
 
 ### License (MIT)
 
