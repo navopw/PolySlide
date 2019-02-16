@@ -20,11 +20,11 @@ Now visit http://localhost:8080 and use the chrome dev tools to get the smartpho
 
 ### Acknowledgments
 
-- Thanks [masy](https://github.com/masy) for the textures & game concept
+- Thanks [Masy](https://github.com/masy) for the textures & game concept
 
 ### License (MIT)
 
-Copyright © 2017 [Navo](https://github.com/navopw) & [masy](https://github.com/masy)
+Copyright © 2017 [Navo](https://github.com/navopw) & [Masy](https://github.com/masy)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
